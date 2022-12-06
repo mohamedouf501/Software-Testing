@@ -1,0 +1,23 @@
+{
+  "name": "software-testing",
+  "version": "1.0.0",
+  "description": "Software Testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohamedOuf504/Software-Testing.git"
+  },
+  "keywords": [],
+  "author": "Mohamed Ouf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohamedOuf504/Software-Testing/issues"
+  },
+  "homepage": "https://github.com/MohamedOuf504/Software-Testing#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
