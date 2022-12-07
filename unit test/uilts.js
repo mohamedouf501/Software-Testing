@@ -41,6 +41,22 @@ const applyDiscount = (orderId) => {
   return order;
 };
 
+// const createOrder = async (userId, products) => {
+//   if (!userId) {
+//     throw new Error("userId not found");
+//   }
+//   let totalPrice = 0;
+//   products.forEach((product) => {
+//     totalPrice += product.price;
+//   });
+
+
+//   await db.createOrder((userId, products)
+//     const user = await db.getUser(userId)
+//   email.sendEmail(user.email, totalPrice)
+//   return `order created successfully with totalPrice : ${totalPrice} and products ${products} `
+// };
+
 module.exports = {
   sum,
   greeting,
@@ -48,5 +64,6 @@ module.exports = {
   Anmimls,
   getOrderById,
   getOrders,
-  applyDiscount, 
+  applyDiscount,
+  // createOrder
 };
