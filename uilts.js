@@ -5,7 +5,7 @@ const sum = (a, b) => a + b;
 const greeting = (name) => `Hello ${name} !`;
 
 const isEven = (number) => (number % 2 == 0 ? true : false);
-
+ 
 const Anmimls = ["cat", "dog", "fish"];
 
 const getOrderById = (id) => {
