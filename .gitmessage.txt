@@ -1,0 +1,20 @@
+# <type>(<scope>): <subject>
+# Type: The type of change being made (feat, fix, refactor, etc.).
+# Scope: The scope of the change (component, module, file, etc.).
+# Subject: A brief summary of the change.
+
+# <body>
+# A more detailed description of the change.
+# This can include bullet points, paragraphs, etc.
+
+# <breaking change>
+# If this change introduces a breaking change, describe it here.
+
+# <related issues>
+# If this change is related to any issues, list them here with the # symbol.
+
+# <additional comments>
+# Any additional comments or context that might be useful.
+
+# Signed-off-by: <name> <email>
+# This line is used to sign the commit, indicating who authored it.
